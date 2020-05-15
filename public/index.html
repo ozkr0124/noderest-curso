@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <meta name="google-signin-client_id" content="484042911419-2981d9k748ne10pp9vl5nuubif2f3fp9.apps.googleusercontent.com">
+        <meta name="google-signin-client_id" content="545266656954-gm8brnfphecp62g6p76up36m7sedvvn3.apps.googleusercontent.com">
     </head>
 
     <body>
@@ -21,14 +21,6 @@
                 });
             }
         </script>
-
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-        <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
-
-
-        <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
-        <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
-
 
         <script>
             function onSignIn(googleUser) {
@@ -49,20 +41,6 @@
                 xhr.send('idtoken=' + id_token);
 
             }
-            // Your web app's Firebase configuration
-            var firebaseConfig = {
-                apiKey: "AIzaSyCySqoGOncRolQ8TkcXmm5jTzRTH8kpe6Q",
-                authDomain: "curso-e0986.firebaseapp.com",
-                databaseURL: "https://curso-e0986.firebaseio.com",
-                projectId: "curso-e0986",
-                storageBucket: "curso-e0986.appspot.com",
-                messagingSenderId: "484042911419",
-                appId: "1:484042911419:web:bb72eff711ec6cea61c39e",
-                measurementId: "G-9DJ2XRBK9J"
-            };
-            // Initialize Firebase
-            firebase.initializeApp(firebaseConfig);
-            firebase.analytics();
         </script>
 
     </body>

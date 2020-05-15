@@ -1,5 +1,5 @@
 /* PUERTO ESCUCHA PRODUCCION/DESARROLLO */
-process.env.PORT = process.env.PORT || 80;
+process.env.PORT = process.env.PORT || 3000;
 
 /* ENTORNO DE TRABAJO PRODUCCION/DESARROLLO */
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
@@ -22,4 +22,4 @@ if (process.env.NODE_ENV === 'dev') {
 process.env.URLDB = urlDB;
 
 /* Google Client_ID */
-process.env.CLIENT_ID = process.env.CLIENT_ID || '484042911419-2981d9k748ne10pp9vl5nuubif2f3fp9.apps.googleusercontent.com';
+process.env.CLIENT_ID = process.env.CLIENT_ID || '545266656954-gm8brnfphecp62g6p76up36m7sedvvn3.apps.googleusercontent.com';
