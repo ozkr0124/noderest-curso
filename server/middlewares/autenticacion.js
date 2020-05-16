@@ -15,7 +15,7 @@ let verificaToken = (req, res, next) => {
                 err: {
                     message: 'Token no válido'
                 }
-            })
+            });
         }
 
         req.usuario = decoded.usuario;
@@ -39,9 +39,7 @@ let verificaAdmin_Role = (req, res, next) => {
             }
         });
     }
-
-
-}
+};
 
 
 module.exports = {

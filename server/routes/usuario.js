@@ -84,9 +84,7 @@ app.put('/usuario/:id', [verificaToken, verificaAdmin_Role], (req, res) => {
             ok: true,
             usuario: usuarioDB
         });
-
-
-    })
+    });
 
 });
 
@@ -111,7 +109,7 @@ app.delete('/usuario/:id', [verificaToken, verificaAdmin_Role], (req, res) => {
         });
 
 
-    })
+    });
 
     /* Usuario.findByIdAndRemove(id, (err, usuarioBorrado) => {
         if (err) {
