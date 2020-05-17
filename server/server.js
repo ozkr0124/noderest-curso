@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 app.use(express.static(path.resolve(__dirname, '../public')));
 
-app.use(require('./routes/index'));
+app.use(require('./routes/index')); // importa todas las rutas creadas, se hace asi para dejar limpio este archivo de server
 
 let conn = async() => {
     let db = await mongoose.connect(process.env.URLDB, {
